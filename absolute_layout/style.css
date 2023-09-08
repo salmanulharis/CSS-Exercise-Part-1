@@ -1,0 +1,98 @@
+body {
+    font-family: Trebuchet MS;
+}
+
+.main_wrapper {
+/*    position: relative;*/
+}
+
+.simple_column_layout, .arbitrary_layout {
+    position: absolute;
+    border: 2px solid gray;
+    margin: 10px;
+    padding: 10px;
+    background: white;
+}
+
+.simple_column_layout {
+    width: 250px;
+    height: 300px;
+    top: 75px;
+}
+
+.scl_div_1 {
+    left: 50px;
+}
+
+.scl_div_2 {
+    left: 400px;
+}
+
+.scl_div_3 {
+    left: 750px;
+}
+
+.scl_div_4 {
+    left: 1100px;
+}
+
+.al_div_1 {
+    height: 200px;
+    width: 300px;
+    top: 75px;
+    left: 50px;
+}
+
+.al_div_2 {
+    height: 300px;
+    width: 200px;
+    top: 250px;
+    left: 300px;
+}
+
+.al_div_3 {
+    height: 150px;
+    width: 550px;
+    left: 75px;
+    top: 450px;
+}
+
+.al_div_4 {
+    height: 475px;
+    width: 150px;
+    top: 60px;
+    left: 600px;
+}
+
+.header {
+    height: 150px;
+    width: 800px;
+    border: 2px solid gray;
+    position: relative;
+}
+
+.header_layout {
+    border: 2px solid gray;
+    padding: 5px;
+    background: white;
+    position: absolute;
+}
+
+.logo {
+    top: 10px;
+    left: 10px;
+    height: 50px;
+    width: 300px;
+}
+
+.top-nav {
+    top: 10px;
+    left: 620px;
+    width: 150px;
+}
+
+.menu {
+    top: 110px;
+    left: 275px;
+    width: 500px;
+}

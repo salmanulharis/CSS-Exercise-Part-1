@@ -1,0 +1,44 @@
+body {
+    font-family: Trebuchet MS;
+}
+
+.main-wrapper {
+    border: 2px solid gray;
+    margin: 10px;
+    padding: 10px;
+}
+
+.simple_columns {
+    border: 2px solid gray;
+    margin: 10px;
+    padding: 10px;
+    background: white;
+}
+
+.sidebar {
+    float: left;
+    width: 42%;
+    height: 150px;
+}
+
+.main {
+    float: right;
+    width: 51%;
+    height: 100px;
+}
+
+.footer {
+    clear: both;
+}
+
+.responsive_grids {
+    width: 200px;
+    height: 200px;
+    border: 2px solid gray;
+    float: left;
+    margin: 10px;
+}
+
+.grid_wrapper {
+    display: table;
+}
